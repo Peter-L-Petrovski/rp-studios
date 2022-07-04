@@ -38,3 +38,62 @@ header li a {
 }
 /*Header Styling*/
 
+/*Main Section Styling*/
+.main {
+    background-color: #1F2937;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    flex: 1;
+    max-width: 1500px;
+}
+
+.main-container img {
+    height: 200px;
+    width: auto;
+}
+
+.right {
+    left: auto;
+}
+
+.main-container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.main-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    display: inline-block;
+    padding: 0.6em 1.6em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #1F2937;
+}
+
+.sign-up:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+/*Main Section Styling*/
