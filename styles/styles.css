@@ -97,3 +97,35 @@ header li a {
     background-color: #FFFFFF;
 }
 /*Main Section Styling*/
+
+/*Artworks Styling*/
+.artworks-container img{
+    height: 400px;
+    width: auto;
+    margin: 0 60px;
+    border: 5px solid #045266;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 75px;
+}
+
+.artworks-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+    min-height: 80vh;
+}
+
+.artworks-container p {
+    text-align: center;
+}
+/*Artworks Styling*/
+
