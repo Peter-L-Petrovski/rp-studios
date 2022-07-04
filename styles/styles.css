@@ -129,3 +129,69 @@ h2 {
 }
 /*Artworks Styling*/
 
+/*Quote styling*/
+#information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    text-align: center;
+    font-size: 40px;
+    color: #1F2937;
+    min-height: 30vh;
+}
+/*Quote styling*/
+
+/*Sign-Up Styling*/
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    background-color: #FFFFFF;
+    font-size: 18px;
+}
+
+.sign-up-container {
+    display: flex;
+    background-color: #3882F6;
+    border: 1px solid black;
+    width: 70vw;
+    border-radius: 5px;
+    padding: 50px 100px 50px 100px;
+    color: #FFFFFF;
+}
+
+.sign-up-container p {
+    margin: 0;
+}
+
+.sign-right {
+    margin-left: auto;
+    align-self: center;
+}
+
+.sign-heading {
+    font-weight: bolder;
+}
+
+.sign-up-container button {
+    display: inline-block;
+    padding: 0.6em 1.6em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 550;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #3882F6;
+}
+
+.sign-up-container button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
