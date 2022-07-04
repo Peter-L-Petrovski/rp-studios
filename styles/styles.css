@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    margin-top: 80px;
+    padding: 0;
+}
+
+/*Header Styling*/
+header img {
+    height: 80px;
+    margin-left: 2%;
+}
+
+header {
+    background-color: #045266;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 10px;
+}
+
+header li a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*Header Styling*/
+
