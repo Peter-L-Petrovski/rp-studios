@@ -34,7 +34,7 @@ header li {
 header li a {
     color: #E5E7EB;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2em;
 }
 /*Header Styling*/
 
@@ -42,28 +42,29 @@ header li a {
 .main {
     background-color: #1F2937;
     display: flex;
-    align-content: center;
     justify-content: center;
+    align-items: center;
 }
 
 .main-container {
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
     justify-content: center;
-    min-height: 30vh;
-    flex: 1;
+    align-items: center;
+    height: 50vh;
     max-width: 1500px;
-}
-
-.main-container img {
-    height: 200px;
-    width: auto;
+    flex: 1 1 auto;
 }
 
 .right {
     left: auto;
 }
+
+.main-container img {
+    height: 150px;
+    width: auto;
+}
+
 
 .main-container h1 {
     font-size: 48px;
@@ -100,7 +101,7 @@ header li a {
 
 /*Artworks Styling*/
 .artworks-container img{
-    height: 400px;
+    height: 450px;
     width: auto;
     margin: 0 60px;
     border: 5px solid #045266;
@@ -112,7 +113,7 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .artworks-container {
@@ -132,6 +133,7 @@ h2 {
 /*Quote styling*/
 #information {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
@@ -140,6 +142,10 @@ h2 {
     color: #1F2937;
     min-height: 30vh;
 }
+
+.quote-box {
+    width: 60vw;
+}
 /*Quote styling*/
 
 /*Sign-Up Styling*/
@@ -147,7 +153,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 25vh;
+    height: 35vh;
     background-color: #FFFFFF;
     font-size: 18px;
 }
@@ -194,4 +200,16 @@ h2 {
 .sign-up-container button:hover {
     color: #000000;
     background-color: #FFFFFF;
+}
+/*Sign-Up Styling*/
+
+/*Footer Styling*/
+.footer {
+    display: flex;
+    background-color: #045266;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    font-weight: bolder;
 }
